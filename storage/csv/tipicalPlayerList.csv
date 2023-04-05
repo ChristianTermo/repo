@@ -1,0 +1,10 @@
+firstName,lastName,country,dci,role,status,email,torneo
+David,Peretti,30001,IT,player,enrolled,mail1@gmail.com,Torneo_1
+Niccolo,Fioletti,30002,IT,player,enrolled,mail2@gmail.com,Torneo_1
+Gianluca,Gazzola,30003,IT,player,enrolled,mail3@gmail.com,Torneo_1
+Federico,Coin,30004,IT,player,enrolled,mail4@gmail.com,Torneo_1
+Francesco,Bortoluzzi,30005,IT,player,enrolled,mail5@gmail.com,Torneo_1
+Saverio,Guglielmi,30006,IT,player,enrolled,mail6@gmail.com,Torneo_1
+Giacomo,Girardi,30007,IT,player,enrolled,mail7@gmail.com,Torneo_1
+Erik,Battagin,30008,IT,player,enrolled,mail8@gmail.com,Torneo_1
+Alex,Matteazzi,30009,IT,player,enrolled,mail9@gmail.com,Torneo_1
