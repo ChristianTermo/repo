@@ -25,7 +25,8 @@ class LoginController extends Controller
             'email' => 'required|email',
         ]);
         $user = User::where('email', '=', $request['email'])->first();
-        if (Auth::loginUsingId($user->id)) {
+        if (isset($user)) {
+            Auth::loginUsingId($user->id);
             $token = Str::random(6);
 
             DB::table('auth_tokens')->insert([
