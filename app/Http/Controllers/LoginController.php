@@ -38,7 +38,7 @@ class LoginController extends Controller
     
             return redirect('validate');
         } else {
-            return redirect('login')->withErrors('credenziali errate');
+            return redirect('/')->withErrors('credenziali errate');
         };      
     }
 
@@ -75,6 +75,6 @@ class LoginController extends Controller
     public function logout()
     {
         Auth::logout();
-        return redirect('login');
+        return redirect('/');
     }
 }

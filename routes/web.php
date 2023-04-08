@@ -18,11 +18,9 @@ use App\Http\Middleware\RedirectToLogin;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('login', [LoginController::class, 'getLogin'])->name('login');
+
+Route::get('/', [LoginController::class, 'getLogin'])->name('/');
 Route::post('log-in', [LoginController::class, 'login'])->name('log-in');
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
