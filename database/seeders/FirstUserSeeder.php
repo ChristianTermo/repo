@@ -25,5 +25,16 @@ class FirstUserSeeder extends Seeder
             'status' => 'x',
             'torneo' => 'x'
         ]);
+
+        $michele = User::create([
+            'email' => 'michiviane@gmail.com',
+            'FirstName' => 'Michele',
+            'LastName' => 'Vianello',
+            'role' => 'admin',
+            'country' => '55',
+            'dci' => 'x',
+            'status' => 'x',
+            'torneo' => 'x'
+        ]);
     }
 }
