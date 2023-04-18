@@ -42,6 +42,6 @@ class LoginMail extends Mailable
      */
     public function build()
     {
-        return $this->from('WhatsMyTable@mail.com')->view('email-template')->with(['token' => $this->token]);
+        return $this->from('postmaster@mail.whatsmytable.com')->view('email-template')->with(['token' => $this->token]);
     }
 }
